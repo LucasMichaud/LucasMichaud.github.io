@@ -217,26 +217,31 @@
 .allum1 .heroImage {
   width: 1067px;
   height: 600px;
-  max-width: 95% !important;
   -o-object-fit: cover;
   object-fit: cover;
 }
+@medi (max-width: 1399px) {
+  .allum1 .heroImage {
+    width: 890px !important;
+    height: 500px !important;
+  }
+}
 @media (max-width: 991px) {
   .allum1 .heroImage {
-    width: 75% !important;
-    height: 500px;
+    width: 711px !important;
+    height: 400px !important;
   }
 }
 @media (max-width: 479px) {
   .allum1 .heroImage {
-    width: 50% !important;
-    height: 350px
+    width: 470 !important;
+    height: 265px !important;
   }
 }
 @media (max-width: 383px) {
   .allum1 .heroImage {
-    width: 25% !important;
-    height: 200px;
+    width: 227px !important;
+    height: 128px !important;
   }
 }
 .allum1 .galleryContainer {
