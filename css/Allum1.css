@@ -215,24 +215,28 @@
   }
 }
 .allum1 .heroImage {
-  width: 600.015625px;
-  max-width: 85% !important;
+  width: 1067px;
+  height: 600px;
+  max-width: 95% !important;
   -o-object-fit: cover;
   object-fit: cover;
 }
 @media (max-width: 991px) {
   .allum1 .heroImage {
-    width: 50% !important;
+    width: 75% !important;
+    height: 500px;
   }
 }
 @media (max-width: 479px) {
   .allum1 .heroImage {
-    width: 35% !important;
+    width: 50% !important;
+    height: 350px
   }
 }
 @media (max-width: 383px) {
   .allum1 .heroImage {
-    width: 15% !important;
+    width: 25% !important;
+    height: 200px;
   }
 }
 .allum1 .galleryContainer {
