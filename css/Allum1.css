@@ -220,28 +220,46 @@
   -o-object-fit: cover;
   object-fit: cover;
 }
-@medi (max-width: 1399px) {
+@media (max-width: 1399px) {
   .allum1 .heroImage {
-    width: 890px !important;
+    width: 850px !important;
     height: 500px !important;
   }
 }
 @media (max-width: 991px) {
   .allum1 .heroImage {
-    width: 711px !important;
+    width: 700px !important;
     height: 400px !important;
   }
 }
 @media (max-width: 479px) {
   .allum1 .heroImage {
-    width: 470px !important;
-    height: 265px !important;
+    width: 360px !important;
+    height: 230px !important;
   }
 }
 @media (max-width: 383px) {
   .allum1 .heroImage {
     width: 227px !important;
     height: 128px !important;
+  }
+}
+@media (max-width: 1399px) {
+  .allum1 .heroVideo {
+    width: 850px !important;
+    height: 500px !important;
+  }
+}
+@media (max-width: 991px) {
+  .allum1 .heroVideo {
+    width: 700px !important;
+    height: 400px !important;
+  }
+}
+@media (max-width: 479px) {
+  .allum1 .heroVideo {
+    width: 470px !important;
+    height: 265px !important;
   }
 }
 .allum1 .galleryContainer {
